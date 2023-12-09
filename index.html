@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> MUDRA DANCE ACADEMY </title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="cc/style.css">
+<style>
+    /* css reset */
+    body {
+        font-family: 'Courgette', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('images/1688464842719.jpg');
+    }
+
+    .left {
+        position: absolute;
+        left: 60px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px solid white; */
+    }
+
+    .left img {
+        width: 71px;
+        filter: invert(100%);
+    }
+
+    .left div {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .mid {
+        position: absolute;
+        top: -14px;
+        left: 340px;
+        display: block;
+        width: 47%;
+        margin: 20px auto;
+        /* border: 2px solid rgb(168, 25, 25); */
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px solid rgb(204, 192, 25); */
+    }
+
+    .navbar {
+        display: inline-block;
+        border: 3px solid rgb(117, 58, 3);
+
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 16px;
+        margin: 12px 0px;
+
+    }
+
+    .navbar li a {
+        font-family: 'Times New Roman', Times, serif;
+        color: white;
+        text-decoration: none;
+        padding: 34px 27px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        text-decoration: underline solid rgb(187, 94, 7);
+        color: rgb(247, 202, 119);
+    }
+
+    .btn {
+        font-family: 'Times New Roman', Times, serif;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 9px 12px;
+        border: 3px solid rgb(117, 58, 3);
+        border-radius: 13px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(107, 71, 4);
+    }
+
+    .container {
+        font-family: 'Times New Roman', Times, serif;
+        /* border: 2px solid rgb(117, 58, 3);  */
+        margin: 167px 223px;
+        padding: 65px 40px;
+        width: 33%;
+        border-radius: 76px;
+    }
+
+    .form input {
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        display: block;
+        width: 350px;
+        padding: 9px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 15px;
+        border-radius: 15px;
+
+    }
+
+    .container h1 {
+        text-align: center;
+
+    }
+
+    .container button {
+        display: block;
+        width: 23%;
+        margin: auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="C:\Users\user\Desktop\project\images\png-transparent-silhouette-indian-dancer-beautiful-bharatanatyam-classical-dance-exponent-girl-pose.png" alt="">
+            <div> MUDRA </div>
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">DANCE ACADEMY</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1><i>Join the classes now!!</i></h1>
+        <form action="noaction.php">
+            <div class="form">
+                <input type="text" name="" placeholder="Enter Your Name">
+            </div>
+            <div class="form">
+                <input type="text" name="" placeholder="Enter Your Age">
+            </div>
+            <div class="form">
+                <input type="text" name="" placeholder="Enter Your Email ID">
+            </div>
+            <div class="form">
+                <input type="text" name="" placeholder="Enter Your Phone Number">
+            </div>
+            <div class="form">
+                <input type="text" name="" placeholder="Enter Your Locality">
+            </div>
+            <button class="btn">
+                Submit
+            </button>
+        </form>
+    </div>
+</body>
+
+</html>
